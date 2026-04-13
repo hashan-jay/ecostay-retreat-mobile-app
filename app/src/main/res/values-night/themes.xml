@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (dark tweaks). -->
+    <style name="Base.Theme.EcoStayRetreat" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/eco_primary</item>
+        <item name="colorOnPrimary">@color/eco_on_primary</item>
+        <item name="colorSecondary">@color/eco_secondary</item>
+        <item name="colorOnSecondary">@color/eco_on_secondary</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="materialButtonStyle">@style/Widget.EcoStay.Button</item>
+        <item name="android:fontFamily">@font/alata</item>
+    </style>
+</resources>

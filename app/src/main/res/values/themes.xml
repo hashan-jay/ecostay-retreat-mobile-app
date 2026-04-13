@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EcoStayRetreat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light color scheme overrides -->
+        <item name="colorPrimary">@color/eco_primary</item>
+        <item name="colorOnPrimary">@color/eco_on_primary</item>
+        <item name="colorPrimaryContainer">@color/eco_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/eco_on_primary_container</item>
+
+        <item name="colorSecondary">@color/eco_secondary</item>
+        <item name="colorOnSecondary">@color/eco_on_secondary</item>
+
+        <item name="android:statusBarColor">@color/eco_primary</item>
+        <item name="android:navigationBarColor">@color/eco_primary</item>
+        <item name="android:windowBackground">@color/eco_background</item>
+
+        <item name="colorSurface">@color/eco_surface</item>
+        <item name="colorOnSurface">@color/eco_on_surface</item>
+        <item name="colorOutline">@color/eco_outline</item>
+
+        <!-- Global typography aligned with login/register screens -->
+        <item name="android:fontFamily">@font/alata</item>
+
+        <!-- Buttons -->
+        <item name="materialButtonStyle">@style/Widget.EcoStay.Button</item>
+    </style>
+
+    <style name="Theme.EcoStayRetreat" parent="Base.Theme.EcoStayRetreat" />
+
+    <style name="Widget.EcoStay.Button" parent="Widget.Material3.Button">
+        <item name="android:insetTop">6dp</item>
+        <item name="android:insetBottom">6dp</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+</resources>

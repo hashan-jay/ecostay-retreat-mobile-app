@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base neutrals -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- EcoStay palette -->
+    <color name="app_name_color">#055D0B</color>
+    <color name="eco_primary">#2E7D32</color>          <!-- deep eco green -->
+    <color name="eco_on_primary">#FFFFFFFF</color>
+
+    <color name="eco_primary_container">#A5D6A7</color>
+    <color name="eco_on_primary_container">#1B5E20</color>
+
+    <color name="eco_secondary">#8BC34A</color>        <!-- leaf green -->
+    <color name="eco_on_secondary">#143009</color>
+
+    <color name="eco_background">#a7fab0</color>       <!-- soft off-white with green tint -->
+    <color name="eco_surface">#FFFFFFFF</color>
+    <color name="eco_on_surface">#163021</color>
+
+    <color name="eco_outline">#B0C4A8</color>
+    <color name="eco_accent_orange">#FFB74D</color>   <!-- warm sun accent -->
+</resources>

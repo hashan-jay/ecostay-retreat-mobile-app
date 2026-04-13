@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EcoStay Retreat</string>
+    <string name="sub_name">Reconnect with Nature, Recharge your Soul</string>
+
+    <string name="login_title">Login</string>
+    <string name="register_title">Create Account</string>
+    <string name="dashboard_title">EcoStay Retreat Dashboard</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+
+    <string name="rooms">Rooms</string>
+    <string name="activities">Activities</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile">My Profile</string>
+    <string name="resort_info">Resort Info</string>
+
+    <string name="filter_type">Filter type</string>
+    <string name="sort">Sort</string>
+    <string name="price_per_night">Price per night</string>
+    <string name="book_room">Book Room</string>
+    <string name="check_in">Check-in date</string>
+    <string name="check_out">Check-out date</string>
+    <string name="reserve_activity">Reserve Activity</string>
+    <string name="select_date">Select date</string>
+    <string name="activity_calendar_title">Activity Calendar</string>
+    <string name="activity_calendar_button">Activity Calendar</string>
+    <string name="browse_activities_for_date">Browse activities for this date</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="preferences">Travel preferences</string>
+    <string name="travel_start">Travel start date</string>
+    <string name="travel_end">Travel end date</string>
+</resources>

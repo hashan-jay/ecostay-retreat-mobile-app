@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcoStayRetreat">
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:exported="false"
+            android:label="@string/dashboard_title" />
+        <activity
+            android:name=".activities.ActivityCalendarActivity"
+            android:exported="false"
+            android:label="@string/activity_calendar_title" />
+        <activity
+            android:name=".rooms.RoomDetailActivity"
+            android:exported="false"
+            android:label="@string/book_room" />
+        <activity
+            android:name=".rooms.RoomsActivity"
+            android:exported="false"
+            android:label="@string/rooms" />
+        <activity
+            android:name=".activities.ActivityDetailActivity"
+            android:exported="false"
+            android:label="@string/reserve_activity" />
+        <activity
+            android:name=".activities.ActivitiesActivity"
+            android:exported="false"
+            android:label="@string/activities" />
+        <activity
+            android:name=".bookings.BookingsActivity"
+            android:exported="false"
+            android:label="@string/bookings" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:exported="false"
+            android:label="@string/profile" />
+        <activity
+            android:name=".info.ResortInfoActivity"
+            android:exported="false"
+            android:label="@string/resort_info" />
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="false"
+            android:label="@string/register_title" />
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false"
+            android:label="@string/login_title" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".notifications.EcoTipReceiver"
+            android:exported="false" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
